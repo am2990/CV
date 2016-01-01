@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article} % Default font size and paper size
+
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+\usepackage[ampersand]{easylist}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage{fullpage}
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{2pt}{2pt} % Spacing around sections
+
+\usepackage{longtable}
+
+\geometry{top=20mm,
+ bottom=20mm}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\flushright{Updated: \today}
+\par{\centering{\Huge Apurv \textsc{Mehra}}\par} % Your name
+\center \urlstyle{same}\href{https://apurvm.github.io}{apurvm.github.io}\\
+% \href{https://github.com/am2990}{Github} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:apurv09064@iiitd.ac.in}{apurv09064@iiitd.ac.in} | +91 (931) 132 2238 % Your contact information
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{ \texorpdfstring{\textcolor{red}{Education}}{Education} }
+\begin{tabular}{rp{15cm}}	
+\textsc{August} 2014 & Master of Technology in \textsc{Computer Science and Engineering}\\
+& Dual Degree Program, \href{http://www.iiitd.ac.in}{\textbf{IIIT - Delhi}}, New Delhi\\
+& Masters Thesis: ``Interoperability model for health information systems and \newline associated benefits challenges and approach'' \newline \small Advisor: \href{https://www.iiitd.edu.in/~amarjeet/}{Dr. Amarjeet Singh}  \\
+&\normalsize \textbf{\textsc{CGPA}: 9.30/10.0}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{May} 2013& Bachelor of Technology in \textsc{}\textsc{Computer Science and Engineering} \\&
+ \emph{Finance Specialization}, \href{http://www.iiitd.ac.in}{\textbf{IIIT - Delhi}}, New Delhi\\
+& B.Tech Project: ``Improving healthcare efficiency using IT" \newline \small Advisor: \href{https://www.iiitd.edu.in/~amarjeet/}{Dr. Amarjeet Singh}\\
+&\normalsize \textbf{\textsc{CGPA}: 8.16/10.0} \\
+&\\
+
+%------------------------------------------------
+
+\textsc{May} 2008& \href{http://www.brsschool.org/}{\textbf{Burnpur Riverside School}}, CBSE | Final Grade:\textbf{ 86.5/100}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{May} 2006& \href{http://svsasansol.com/}{\textbf{St. Vincent's High School}}, ICSE | Final Grade:\textbf{ 92.0/100}\\
+&\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{ \texorpdfstring{\textcolor{red}{Work Experience}}{Work Experience} }
+\begin{longtable}{r|p{15cm}}
+\textsc{Sept. 2014} & Research Associate, MUC Group,\textsc{ IIIT - Delhi}, New Delhi, India \\ % Add Systems Group
+\emph{Current} & Advisor: \href{http://www.iiitd.edu.in/~pushpendra/}{Dr. Pushpendra Singh} \\
+%&\textbf \emph{Design and Development of a Mobile Device Centric Environment for Healthcare Delivery} \\
+ & \small{ 
+\begin{easylist}[itemize]
+& \textbf{iCHS (Interoperable Collaborative Health System)}: Designed and developed a collaborative health information middleware based on Publish/Subscribe paradigm.  
+& \textbf{Usable Security}: Desigined and developed an Android based password security scheme for semi-literate health workers. 
+& \textbf{Intelligent Query Allocation in Crowd Sensing Systems}: Developed and evaluated a framework for intelligent query allocation in crowd sensing systems. The objective of query allocation scheme was to improve the overall resource utilization of the system.
+\end{easylist}  
+  \href{https://github.com/am2990/chs-iiitd}{\hfill | link to source code} }\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\textsc{May -} & Associate, \href{https://www.zenatix.com/}{\textsc{Zenatix}}, Gurgaon, India \emph{}\\
+\textsc{June 2014} & \emph{Backend Engineer}\\ 
+& \small{Worked towards improving the robustness and scalability of the framework which collected data from smart meters and pushed it to the cloud infrastructure for analytics. }\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May-} & Summer Intern, \href{http://hispindia.org/}{\textsc{HISP - India}}, New Delhi, India \emph{}\\
+\textsc{July 2011} & \emph{Bussiness Intelligence for Health Information Systems }\\ 
+& \small{Understood the e-Health Infrastructure set up of Himachal Pradesh state in India. Thereafter developed various reports using \textit{Business Intelligence Reporting Tool} for analysis of hospital data.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May-} & Summer Intern, \href{http://muc.iiitd.edu.in/muc/}{\textsc{MUC Group}}, IIIT - Delhi, New Delhi, India \emph{}\\
+\textsc{July 2010} & \emph{Design and Development of Telemedicine Application}\\ 
+& \small{\href{http://sana.mit.edu}{SANA} (earlier MOCA) is a MIT based open-source end-to-end telemedicine application in Android. The project invovled designing and developing a Symbian client which could interface with the SANA middleware.} \ \href{https://code.google.com/p/moca/}{\hfill | link to source code}
+\end{longtable}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%
+%changes default name to Publications
+%\section{ \texorpdfstring{\textcolor{red}{Publications and Demos}}{Publications and Demos} }
+%\begin{enumerate}
+%	\item{ Rushil Khurana, Sanchit Sharma, \textbf{Apurv Mehra}, Daksha Yadav, Vinayak Naik, and Amarjeet
+%Singh. Jiah: Healthcare goes mobile. Proceedings of \textbf{ M4D 2012} 28-29 February 2012 New Delhi,
+%India, 28(29):102, 2012.} \href{http://kau.diva-portal.org/smash/get/diva2:472880/FULLTEXT01#page=119}{[ pdf ]}
+%	\item{Amarjeet Singh, \textbf{Apurv Mehra}, Sundeep Sahay. ``Integrated Health Information Systems in Practice." Demo in  \textbf{Nethealth} Workshop of \textbf{COMSNETS 2014} 7-10 January 2014,  Bangalore, India.} \href{http://www.comsnets.org/archive/2014/netHealth_workshop.html}{[url]}
+%	\item{R Wadhwa, \textbf{A Mehra}, P Singh, M Singh. ``A Pub/Sub based architecture to support public
+%healthcare data exchange." Accepted in  \textbf{Nethealth} Workshop in \textbf{COMSNETS 2015} 7-10 January 2015 Bangalore,India.} \href{https://dl.dropboxusercontent.com/u/56537440/papers/pubsub.pdf}{[ pdf ]}
+%	
+%
+%\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+%\section{ \texorpdfstring{\textcolor{red}{Teaching Experience}}{Teaching Experience} }
+%\begin{tabular}{r|p{13cm}}
+%
+%%------------------------------------------------
+%\textsc{August 2013 } & Teaching Assistant, \textsc{ IIIT - Delhi}, New Delhi, India \\
+%\textsc{May 2014} & \emph{System Management (CSE131, Fall 2013) \newline Analysis and Design of Algorithms (CSE222, Winter 2014)}\\ 
+%Batch Size: 120 & \small{As a teaching assistant took tutorials on specific topics, evaluated lab work, homework \newline assignments and examinations.}\\
+%\multicolumn{2}{c}{} \\
+%%------------------------------------------------
+%
+%\textsc{May-July 2013} & Mentor \href{http://muc.iiitd.edu.in/muc/}{\textsc{MUC Group}}, IIIT - Delhi \emph{}\\
+%\textsc{May-July 2012} & \emph{Training Students in module development for OpenMRS}\\ 
+%Batch Size: 5& \small{Trained sophomore students in developing OpenMRS modules. This required teaching various web development technologies such as Javascript, Spring, Hibernate, ExtJS and MySQL. ALso explained  MVC framework and helped setup and debug IDE, Apache servers, and OpenMRS systems. In due course of training created a self learn \href{https://sites.google.com/a/iiitd.ac.in/openmrs-iiitd/}{OpenMRS training} website for students.}
+%
+%%------------------------------------------------
+%
+%\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Projects 
+%----------------------------------------------------------------------------------------
+
+\section{ \texorpdfstring{\textcolor{red}{Selected Projects}}{Selected Projects} }
+
+\begin{longtable}{r|p{15cm}}
+
+\textsc{Aug'14} & Interoperability model for health information systems and associated benefits challenges and approach. \textbf{(Masters Thesis)}\\
+\emph{Technologies} & \emph{Spring MVC, Hibernate, Liquibase, Javascript, Java , Python, Excel}\\ 
+& \small{\href{http://hispindia.org/}{\textsc{HISP - India}} had developed a SDMX-HD based module to provide interoperability between two open source health information systems \href{http://openmrs.org/}{OpenMRS} and \href{https://www.dhis2.org/}{DHIS2}. Objectives included finding problems in current implementation and deploying a working solution across the state. Post deployment I collected hospital data along with weather and pollution data of the same period. Used statistical tools to show correlation between various hospital indicators and external factors.} \\ & \href{https://github.com/hispindia/dhisreport}{\hfill | link to source code}\\
+\multicolumn{2}{c}{} \\
+
+ %------------------------------------------------
+
+\textsc{Aug'12 - May'13} & Improving Healthcare Efficiency using IT, \emph\textbf{B.Tech Project}\\
+\emph{Technologies} & \emph{Android, Python}\\ 
+& \small{Worked with \href{http://www.aherf.org/}{\textbf{AHREF}}(Apollo Hospitals Educational and Research Foundation) to study and suggest improvements to their hospital information system. Based on the study we extended \href{https://opendatakit.org/use/sensors/}{\textbf{ODK Sensors}} to collect data from health sensors on phones over WiFi.  Some sensors were interfaced directly while others were interfaced via Raspberry-Pi boards.}\\ & \href{https://sites.google.com/a/iiitd.ac.in/apurvmehra/projects}{\hfill | link to project resources}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+\textsc{Jan-April 2014} & pho-CO-play, \emph{Windows Phone based game controller}\\
+\emph{Technologies} & \emph{Windows Phone Mango SDK, C\# }\\ 
+& \small{Developed a windows phone application which allowed users to control PC using gestures over WiFi network. }\\ & \href{https://github.com/am2990/pho-CO-play}{\hfill | link to source code}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+%\textsc{Jan-April 2014} & Financial, \emph{Projects in Finance Specialization}\\
+%\emph{Techonologies} & \emph{Google App Engine, Python (Django, Beautiful Soup), Excel, Highcharts }\\ 
+%& \small{Worked on numerous projects in finance domain and earned specialization in Finance during undergrad program.
+%
+%\begin{easylist}[itemize]
+%& \textbf{Valuing Companies and identifying Multi bagger Stocks}: Collected financial data ( income statement, balance sheet and cash flow) of all \href{http://www.bseindia.com/}{BSE} listed companies and stocks from \emph{\href {in.finance.yahoo.com}{Yahoo Finance}}  by building a generic web parser in python. Calculated financial ratios ( Liquidity, Debt, Profitability, Cash Flow, Investment Valuation ) and displayed content to users to compare companies for making smarter investment decisions. In the second phase used Peter Lynch strategy to quantitatively filter stocks and later did qualitative analysis to come up with 3 multi bagger stocks. (NASDAQ, BSE)
+%& \textbf{Case Study on Banking Sector in India}: Detailed study on how banking sector functions in India. Covered topics of regulation, risk in business, research, planning, credit rating agencies and accounting policies of bank.
+%& \textbf{Valuing Real Options in Metro Railway Transit System}: Study and analyze the real options and investment decisions undertaken by Delhi Metro Project and check the possibility of applying the same to similar projects in other metro 
+%cities like Bangalore, Kolkata etc. taking into account the delay and cost escalation that has occurred in these projects.
+%\end{easylist}  
+%    } \ \href{https://sites.google.com/a/iiitd.ac.in/apurvmehra/projects/finance}{\hfill | link to resources}\\
+%\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan-July 2012} & \href{http://www.codecc.co.nr/}{CODECC}, \emph{Cloud Based Course Management System}\\
+\emph{Technologies} & \emph{Google App Engine, Python, Web Technologies}\\ 
+& \small{Designed and developed a cloud based course management system. The system was built on Google App Engine. } \ \href{https://github.com/am2990/codecc}{\hfill | link to source code}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug-Dec 2012} & Blood Bank Module for Health Information System\\
+\emph{Technologies} & \emph{Spring MVC, Hibernate, Liquibase, Javascript, Java }\\ 
+& \small{Developed a blood bank management module in \href{http://openmrs.org/}{OpenMRS}. It is currently \textbf{deployed} across all the 20 district hospitals of Himachal Pradesh state in India.}\ \href{https://github.com/hispindia/bloodbank}{\hfill | link to source code}
+\end{longtable}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{ \texorpdfstring{\textcolor{red}{Scholarships and Certificates}}{Scholarships and Certificates} }
+\begin{tabular}{rp{13cm}}
+
+\textsc{December} 2013 & \href{http://ictd.cs.uct.ac.za/attending-scholarships.html#preconference}{ICTD Emerging Researcher Scholarship} to attend ICTD  pre-conference symposium and ICTD main conference in Cape Town, South Africa. \normalsize\\ \\
+
+\textsc{March} 2013 & Ranked Top 3\% out of 224,160 in \href{http://www.gate.iitb.ac.in/gate2013/}{Graduate Aptitude Test Exam 2013} conducted by IIT- Bombay. Awarded \href{http://www.aicte-india.org/generalInstructions.php}{GATE Scholarship} based on result by AICTE, India.\normalsize\\
+
+
+\end{tabular}
+%--------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Extra
+%----------------------------------------------------------------------------------------
+
+\section{ \texorpdfstring{\textcolor{red}{Other Interests}}{Other Interests} }
+\begin{tabular}{rp{13cm}}
+
+\textsc{Leadership} & Organized Flagship Event 'Techathlon' of Eysa, IIIT-Delhi Tech Fest.\newline
+			    Member of Hostel and Mess Committee, 2012 - 2013 , IIIT - Delhi. \\ \\
+\textsc{Other Hobbies} & Swimming, Roller Skating, Traveling and Reading.\\
+
+
+\end{tabular}
+
+\end{document}
